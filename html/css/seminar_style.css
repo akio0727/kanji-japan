@@ -1,0 +1,260 @@
+
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/***********topここから**************/
+.venture_top{display: flex;
+             justify-content: space-around;
+             background-color: #7C6F85;}
+
+.venture_title{
+    font-family: "futura-pt", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 58px;
+    color: #fff;
+    padding: 0px 80px;
+    padding-top: 90px;
+    margin: 0px;
+    line-height: 7vw;}
+
+.venture_title::after{
+    content:"講演活動、メディア出演など";
+    display: block;
+    font-style: normal;
+    position: relative;
+    font-size: 2vw;
+    top: -3vw;}
+
+.venture_top img{
+    width: 28%;
+    padding: 30px 0px;
+    opacity: 0.6;}
+/***********topここまで**************/
+
+/***********新規上場ここから**********/
+.venture_synopsis{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+.venture_synopsis_title{font-size: 35px;}
+
+.venture_content{
+    width: 80%;
+    font-size: 21px;
+    line-height: 45px;}
+
+.register{position: relative;}
+
+.seminar_register_title{font-size: 35px;}
+
+.seminar_register_title::after{
+    content:"";
+    background-image: url(../images/yazirushi_yellow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 6vw;
+    position: absolute;
+    top: 0.5vw;}
+/***********新規上場ここまで**********/
+
+/**********フローここから***********/
+.flow{width: 80%;
+    margin: auto;
+    margin-bottom: 80px;}
+
+.flow_title{
+    margin: 0px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 58px;}
+
+.flow_title::after{
+    content:"活動実績";
+    font-style: normal;
+    display: block;
+    font-size: 21px;}
+
+/*****活動実績ここから*******/
+.profile_field{
+    background-color: #D8D2D8;
+    padding: 30px 50px;}
+
+/*経歴*/
+.career{font-size: 32px;}
+
+.career::after{display: block;
+position: relative;
+content: "";
+width: 130px;
+height: 10px;
+background-color: #000;
+bottom: 0;
+top: auto;
+transform: translate(-50%, 0);}
+
+.career_list_all{
+padding: 0px;
+font-size: 21px;}
+
+.career_list{display: flex;}
+.career_list p{margin: 0px;}
+
+/**セミナー実績**/
+.seminar{font-size: 32px;}
+
+.seminar::after{display: block;
+position: relative;
+content: "";
+width: 260px;
+height: 10px;
+background-color: #000;
+bottom: 0;
+top: auto;
+right: 70px;}
+
+.seminar_list{
+padding: 0px;
+font-size: 21px;}
+
+/**メディア実績**/
+.media{font-size: 32px;}
+
+.media::after{display: block;
+position: relative;
+content: "";
+width: 260px;
+height: 10px;
+background-color: #000;
+bottom: 0;
+top: auto;
+right: 70px;}
+
+.media_list{
+padding: 0px;
+font-size: 21px;}
+
+
+/********活動実績ここまで*********/
+
+/************contactここから*************/
+
+.contact{background-color: #080058;}
+
+.contact_all{display: flex;
+    justify-content: space-around;
+    padding: 100px;}
+
+.contact_title{
+    color: #fff;
+    font-family: "futura-pt", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4vw;
+    margin: 0px;}
+
+.contact_title::after{content:"お問い合わせ";
+                     font-size: 1vw;
+                     display: block;}
+
+.contact_button{
+    background-color: #fff;
+    font-family: "futura-pt", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3vw;
+    padding: 30px;
+    position: relative;
+    text-align: center;}
+
+.contact_button::after{content:"";
+                   background-image: url(../images/yazirushi_yellow.png);
+                   display: block;
+                   background-size: contain;
+                   background-repeat: no-repeat;
+                   height: 45px;
+                   width: 8vw;
+                   position: absolute;
+                   top: 1vw;
+                   left: 14vw;}
+
+.contact_button_box{width: 40%;}
+/***********contactここまで*************/
+
+
+/*aboutページ*/
+
+@media (max-width: 1025px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 500px) {
+.service_comparison_table {
+        width: 80%;
+      } 
+  .service_comparison_table .thead_name {
+    display: none;
+  }
+  .service_comparison_table tr,
+  .service_comparison_table td{
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+
+  .service_comparison_table tr {
+    margin-bottom: 40px;
+  }
+
+.support{display: none;}
+
+.support_index::before{
+    content: "支援内容";
+    background: #080058;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px;
+    display: block;
+    width: 100.5%;}
+
+.index_point01::before {
+    content: "スモールプラン";
+    background: #080058;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px;
+    display: block;
+    width: 100.5%;
+  }
+.index_point02::before {
+    content: "グロースプラン";
+    background: #080058;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px;
+    display: block;
+    width: 100.5%;
+  }
+
+}

@@ -1,0 +1,171 @@
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    color:#fff
+    ;
+}
+
+body {
+    color: #0B0B0B;
+}
+
+/***********TOPここから************/
+.top_back {
+    position: relative;
+    background-image: url(../images/sbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 200px;}
+
+.top_title{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    -webkit-transform: translate(-30%, -20%);}
+
+.login_log{width: 180px;
+    position: absolute;
+    top: 10px;
+    right: 10px;}
+
+.login_text{
+    margin: 0px;
+    text-align: end;
+    font-size: 12px;
+    margin-right: 13px;}
+/************TOPここまで*************/
+
+/*****Our objectiveここから*****/
+.objective_title{text-align: center;}
+
+.objective_pic_box{display: flex;
+                   justify-content: space-around;}
+/*****Our objectiveここまで*****/
+
+/*****会社概要ここから*****/
+.craftsman_box {
+    width:  60%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+.comparison_index {
+    text-align: start;
+    padding: 10px;
+    background-color: #E4E4E4;
+}
+
+.support_index {
+    text-align: start;
+    padding: 10px;
+}
+
+.service_comparison_table {
+    font-weight: bold;
+    background-color: #fff;
+    margin: 30px 0px;
+}
+
+.index_point01 {
+    font-weight: normal;
+    text-align: start;
+    padding: 10px;
+}
+
+/*****会社概要ここまで*****/
+
+/************八泉ここから*************/
+.haseen_img{
+    width: 80%;
+    margin: auto;}
+
+.haseen_title{
+    margin-bottom: 0px;
+    font-size: 22px;}
+
+.haseen_text{margin: 0px;}
+.haseen_sab_title{font-size: 20px;}
+/************八泉ここから*************/
+.haseen_bottom{width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #C65046;
+    padding: 20px 0px;}
+
+.return_top{width: 20%;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #C65046;
+    padding: 20px 0px;}
+
+@media (max-width: 1025px) {}
+
+@media (max-width: 768px) {
+
+    /****採用条件ここから****/
+    .service_comparison_table {
+        width: 80%;
+    }
+
+    .service_comparison_table .thead_name {
+        display: none;
+    }
+
+    .service_comparison_table tr,
+    .service_comparison_table th,
+    .service_comparison_table td {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .service_comparison_table tr {
+        margin-bottom: 40px;
+    }
+
+    .support {
+        display: none;
+    }
+
+    .support_index::before {
+        content: "支援内容";
+        background: #080058;
+        box-sizing: border-box;
+        color: #fff;
+        font-weight: bold;
+        height: 40px;
+        padding: 10px;
+        display: block;
+        width: 100.5%;
+    }
+
+    .index_point02::before {
+        content: "グロースプラン";
+        background: #080058;
+        box-sizing: border-box;
+        color: #fff;
+        font-weight: bold;
+        height: 40px;
+        padding: 10px;
+        display: block;
+        width: 100.5%;
+    }
+
+    /****採用条件ここまで****/
+
+}
+
+@media (max-width: 500px) {}

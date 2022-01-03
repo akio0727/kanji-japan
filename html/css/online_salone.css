@@ -1,0 +1,95 @@
+
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosansjavanese.css);
+body {
+    font-family:"kozuka-gothic-pr6n", sans-serif;
+    color: #080058;
+}
+
+/***********topここから**************/
+
+/********活動実績ここまで*********/
+
+/************contactここから*************/
+
+.contact{background-color: #080058;}
+
+.contact_all{display: flex;
+    justify-content: space-around;
+    padding: 100px;}
+
+.contact_title{
+    color: #fff;
+    font-family: "futura-pt", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4vw;
+    margin: 0px;}
+
+.contact_title::after{content:"お問い合わせ";
+                     font-size: 1vw;
+                     display: block;}
+
+.contact_button{
+    background-color: #fff;
+    font-family: "futura-pt", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3vw;
+    padding: 30px;
+    position: relative;
+    text-align: center;}
+
+.contact_button::after{content:"";
+                   background-image: url(../images/yazirushi_yellow.png);
+                   display: block;
+                   background-size: contain;
+                   background-repeat: no-repeat;
+                   height: 45px;
+                   width: 8vw;
+                   position: absolute;
+                   top: 1vw;
+                   left: 14vw;}
+
+.contact_button_box{width: 40%;}
+/***********contactここまで*************/
+.online_top_all{
+    display: flex;
+    justify-content: end;}
+
+.online_top_content_box{
+    width: 40%;
+    margin-right: 20px;}
+
+.nline_top_title{
+    font-family: "futura-pt", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 58px;}
+
+.online_top_img{
+    width: 30%;
+    margin-top: 4vw;
+}
+/*aboutページ*/
+
+@media (max-width: 1025px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 500px) {
+
+}

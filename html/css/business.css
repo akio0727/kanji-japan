@@ -1,0 +1,336 @@
+
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: #636363;
+}
+
+/***********TOPここから************/
+.slide_box{position: relative;
+           background-image: url(../images/2810167_l.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: bottom;
+           height: 500px;}
+
+.maskbox {
+    z-index: 30;
+    width: 20%;
+    margin: auto;
+    position: relative;
+    top: 12vw;}
+
+.mask {
+    display: none;
+    padding: 0px 25px;
+    text-align: center;
+}
+
+.mask h1{font-size: 2.5vw;
+    letter-spacing: 20px;} 
+
+.mask p{font-size: 2vw;
+    letter-spacing: 15px;}
+
+.mask-wrap {
+    display: table;
+    overflow: hidden;
+}
+
+.mask-wrap .mask {
+    display: table;
+    position: relative;
+    margin-bottom: 10px;
+    left: -100%;
+    overflow: hidden;
+    background-color: rgba(242, 178, 50, 0.8);
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 10px;
+    line-height: 40px !important;
+}
+
+.mask-wrap .mask-bg {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #528936;
+    transition: 0.2s;
+    animation-duration: 0.2s !important;
+}
+/************TOPここまで*************/
+
+/*****TOPのキャッチここから****/
+.craftsman_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    margin: 0px;
+    background-color: #528936;
+    color: #fff;}
+
+.craftsman_catch{
+    text-align: center;
+    font-size: 2vw;
+    line-height: 55px;
+    margin: 20px 0px;}
+
+
+/*****TOPのキャッチここまで****/
+
+/******タブ切り替えここから*****/
+.craftsman_box{width: 80%;
+               margin: auto;}
+
+.tab-group{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 50%;}
+
+  .tab{
+    flex-grow: 1;
+    font-weight: bold;
+    padding:5px;
+    list-style:none;
+    text-align:center;
+    cursor:pointer;
+    background-color: #F3F3F3;
+    padding: 15px;
+  }
+  .panel-group{
+    border-top:none;
+    background: #F3F3F3;
+    padding: 20px;
+  }
+  .panel{
+    display:none;
+  }
+  .tab.is-active{
+    background:#E4E4E4;
+    color:#636363;
+    transition: all 0.2s ease-out;
+  }
+  .panel.is-show{
+    display:block;
+  }
+
+/******タブ切り替えここまで*****/
+
+/*****採用条件ここから*****/
+table{width: 100%;}
+
+.comparison_index{text-align: start;
+                  padding: 10px;}
+
+.support_index{text-align: start;
+    padding: 10px;}
+
+.service_comparison_table{
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.index_point01{
+    font-weight: normal;
+    text-align: start;
+    padding: 10px;
+}
+/*****採用条件ここまで*****/
+
+/****詳細ボタンここから********/
+.more_button{
+    width: 16%;
+    margin: 30px auto;}
+
+.more_button a{
+    display: block;
+    width: 300px;
+    padding: 20px 0;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 200% auto;
+    background-image: linear-gradient( to right, #F2B232 0%, #F2B232 50%, #774F00 50%, #774F00 100% );
+    box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
+    transition: background-position ease 0.4s;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;}
+
+.more_button a:hover{background-position: 0 0;}
+/****詳細ボタンここまで********/
+
+/************contactここから*************/
+
+.contact_bg{position: relative;}
+
+.contact{
+    background-image: url(../images/22106242_l.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+   z-index: 1;}
+
+
+.contact_main_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    margin: 0px;
+    background-color: #528936;
+    color: #fff;}
+
+.contact_catch{
+        color: #774F00;
+        font-size: 2vw;
+        line-height: 45px;
+        padding: 20px;
+        margin: 0px;
+        position: relative;
+       z-index: 2;}
+
+.contact_all{display: flex;
+    justify-content: space-around;
+    padding: 100px;}
+
+.contact_phone{background-color: #fff;
+    line-height: 24px;
+    padding: 30px 40px;}
+
+.phone_title{
+    color: #774F00;
+    font-weight: bold;
+    font-size: 2vw;
+    margin: 0px;}
+
+.phone_number{font-weight: bold;
+    font-size: 2vw;}
+
+.phone_number::before{content: "";
+    display: inline-block;
+    background-image: url(../images/_i_icon_00027_icon_000270_256.png);
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+   position: relative;
+   top: 5px;
+    right: 5px;}
+
+    .contact_mail{background-color: #fff;
+        line-height: 24px;
+        padding: 30px 40px;}
+    
+    .mail_title{
+        color: #774F00;
+        font-weight: bold;
+        font-size: 2vw;
+        margin: 0px;}
+    
+    .mail_number{font-weight: bold;
+        font-size: 1.5vw;
+        background-color: #528936;
+        padding: 20px 15px;
+        width: 65%;
+        margin: 20px auto;
+        color: #fff;}
+
+    .mail_number::before{content: "";
+        display: inline-block;
+        background-image: url(../images/_i_icon_12533_icon_125330_256.png);
+        background-size: contain;
+        width: 30px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+       position: relative;
+        right: 5px;}
+/***********contactここまで*************/
+/***********contactここまで*************/
+
+
+@media (max-width: 1025px) {
+}
+@media (max-width: 768px) {
+
+/****採用条件ここから****/
+.service_comparison_table {
+    width: 80%;
+  } 
+.service_comparison_table .thead_name {
+display: none;
+}
+.service_comparison_table tr,
+.service_comparison_table td{
+display: block;
+width: 100%;
+position: relative;
+}
+
+.service_comparison_table tr {
+margin-bottom: 40px;
+}
+
+.support{display: none;}
+
+.support_index::before{
+content: "支援内容";
+background: #080058;
+box-sizing: border-box;
+color: #fff;
+font-weight: bold;
+height: 40px;
+padding: 10px;
+display: block;
+width: 100.5%;}
+
+.index_point01::before {
+content: "スモールプラン";
+background: #080058;
+box-sizing: border-box;
+color: #fff;
+font-weight: bold;
+height: 40px;
+padding: 10px;
+display: block;
+width: 100.5%;
+}
+.index_point02::before {
+content: "グロースプラン";
+background: #080058;
+box-sizing: border-box;
+color: #fff;
+font-weight: bold;
+height: 40px;
+padding: 10px;
+display: block;
+width: 100.5%;
+}
+/****採用条件ここまで****/
+
+}
+@media (max-width: 500px) {
+}

@@ -1,0 +1,273 @@
+
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: #221714;
+}
+
+
+/***********TOPここから**********/
+.service_top{display: flex;
+             justify-content: center;
+            background-color: #EBBDAA;}
+
+.service_top_img{
+    width: 300px;
+    margin: 5% 10px;}
+
+.service_title_box{
+    padding: 5% 10px;
+    background-image: url(../images/haikei.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;}
+
+.service_sab_title{font-size: 30px;}
+
+.service_title{font-size: 45px;
+               line-height: 42px;}
+/***********TOPここまで**********/
+
+.saiyo_wrapper{
+    width: 80%;
+    margin: auto;}
+
+/*******automaticここから*******/
+.automatic_box{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;}
+
+.automatic_sabtext_box{width: 300px;}
+
+.automatic_img{width: 500px;}
+
+/*******automaticここまで*******/
+
+/***アプローチここから****/
+.aproch_img{width: 300px;
+            margin: auto;}
+
+.aproch_title{text-align: center;}
+
+.aproch_title::before{content: "大福 de ええねんのアプローチ";
+                      display: block;
+                      font-size: 18px;}
+
+.aproch_text{text-align: center;}
+
+/***アプローチここから****/
+
+/*********アプローチminiここから*******/
+.approach_mini{
+    width: 60%;
+    margin: auto;}
+
+.approach_mini01-02{
+    display: flex;
+    justify-content: center;}
+.approach_mini03-04{
+    display: flex;
+    justify-content: center;}
+
+.approach_mini_box{
+    width: 300px;
+    margin: 10px 30px;}
+
+.approach_mini_title01{text-align: center;}
+
+.approach_mini_title01::before{
+    content: "approach 1";
+   display: block;
+   font-size: 16px;}
+
+.approach_mini_title02{text-align: center;}
+
+.approach_mini_title02::before{
+    content: "approach 2";
+   display: block;
+   font-size: 16px;}
+
+.approach_mini_title03{text-align: center;}
+
+.approach_mini_title03::before{
+    content: "approach 3";
+   display: block;
+   font-size: 16px;}
+
+.approach_mini_title04{text-align: center;}
+
+.approach_mini_title04::before{
+    content: "approach 4";
+   display: block;
+   font-size: 16px;}
+
+.approach_mini_text{
+    width: 250px;
+    margin: auto;}
+
+.approach_mini_img{
+    width: 200px;
+    margin: auto;}
+
+/*********アプローチminiここまで*******/
+
+/*******aimここから*******/
+.aim_box{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;}
+
+.aim_sabtext_box{width: 400px;}
+
+.aim_text_box{
+    margin-right: 30px;
+    margin-top: 5%;}
+
+.aim_title{line-height: 30px;}
+
+.aim_title::before{
+    content: "大福 de ええねんの目指す世界";
+    font-size: 16px;
+    display: block;}
+
+.aim_img{width:  450px;
+    margin-top: 5%;}
+
+/*******aimここまで*******/
+
+/******planここから******/
+.plan{background-color: #F1D67A;
+    padding: 10px 0;}
+
+.plan_title{text-align: center;}
+.plan_title::after{
+    content: "料金";
+    font-size: 16px;
+    display: block;
+    }
+.system_plan{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;}
+
+.system_plan_text_box{
+    background-color: #F7EABF;
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    line-height: 10px;}
+
+.system_plan_bigtitle{
+    font-size: 24px;
+    margin-left: 30px;}
+
+.system_plan_text{font-size: 12px;}
+/******planここまで******/
+
+
+/****相談ここから*****/
+.contact_box{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #EBBDAA;}
+
+.contact_text_box{width: 300px;}
+
+.contact_text{font-size: 12px;}
+
+.contact_bottom{
+    background-color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;}
+
+.trial_bottom{ background-color: #030303;
+    color:#fff;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 10px;}
+
+.contact_img{width: 300px;}
+
+/****相談ここまで****/
+
+/*******2つのServiceここから******/
+.two_service{background-color: #EBBDAA;}
+
+.two_service_box{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    padding: 30px 0px;}
+
+.two_service_title{
+    color: #fff;
+    margin-top: 5%;}
+
+.two_service_title::after{
+    content: "大福堂のサービス";
+    display: block;
+   font-size: 12px;
+   color: #030303;
+   font-weight: bold;  
+   text-align: center;
+   position: relative;
+   top: -25px;
+}
+
+.two_service_01,
+.two_service_02{
+    font-weight: bold;
+    padding: 5% 10px;
+    background-image: url(../images/haikei.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.two_service_01{font-size: 24px;}
+.two_service_02{
+    font-size: 24px;
+    line-height: 25px;}
+/*******2つのServiceここまで******/
+
+
+
+@media (max-width: 1025px) {
+}
+@media (max-width: 768px) {
+    }
+       
+@media (max-width: 500px) {
+}

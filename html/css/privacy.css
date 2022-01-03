@@ -1,0 +1,54 @@
+
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body{color: #030303;}
+
+/***********topここから**************/
+
+.privacy_top{margin: 0px;
+    background-color: #F3F3F2;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    color: #F1D67A;}
+
+.privacy_top_title::after{
+    content: "個人情報保護方針";
+    display: block;
+    font-size: 16px;
+    color: #030303;
+    position: relative;
+    top: -45px;
+    }
+/***********topここまで**************/
+
+/**********個人情報の内容ここから**********/
+.privacy_wrapper{
+    width: 80%;
+    margin: auto;}
+
+.privacy_list{list-style: none;
+             padding-left: 0px;
+             line-height: 40px;}
+
+.privacy_adress{line-height: 8px;}
+/**********個人情報の内容ここまで**********/
+
+@media (max-width: 1025px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 500px) {
+}
